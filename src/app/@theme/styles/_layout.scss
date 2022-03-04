@@ -1,0 +1,23 @@
+@mixin ngx-layout() {
+
+  nav.fixed {
+    background-color: nb-theme(color-primary-500) !important;
+    height: 32px !important;
+    color: white !important;
+  }
+
+  .layout-container {
+    padding-top: 0 !important;
+  }
+
+  .main-container.main-container-fixed {
+    top: 0.75rem !important;
+  }
+
+  @include media-breakpoint-down(is) {
+    .row {
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+  }
+}

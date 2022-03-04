@@ -1,0 +1,103 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+nb-toggle {
+  margin: 10;
+}
+
+h1 {
+  color: #142052;
+  font-size: 13px;
+  font-weight: 600;
+  position: relative;
+  right: -48px;
+  top: -20px;
+}
+
+.solar-card {
+  box-sizing: content-box;
+}
+
+.botones {
+  position: relative;
+  left: 220px;
+  top: 62px;
+
+}
+
+.button{}
+.mat-toolbar.mat-primary {
+  background: transparent;
+  color: #737375;
+}
+
+
+mat-chip {
+  font-size: 12px;
+  height: 10px;
+  border: 8px solid #f2f2f2;
+  border-radius: 16px;
+  margin-left: 1px;
+}
+
+mat-chip-list {
+  display: inline-block;
+}
+
+.badges-group {
+  font-size: 12px;
+  color: white;
+  display: inline-flex;
+}
+
+.badges {
+  border-radius: 10px;
+  width: 40px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+mat-icon {
+  font-size: 17px;
+}
+
+.example-section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+mat-slide-toggle {
+  margin-left: 2em;
+  position: relative;
+  bottom: 95px;
+  color: #142052;
+  font-family: 'Open Sans';
+  font-size: 11px;
+}
+
+mat-icon-button {
+  position: absolute;
+  outline: none;
+  bottom: -19px;
+}
+
+
+h2 {
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+::ng-deep .mat-menu-content {
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+}
+
+.mat-menu-item {
+  line-height: 25px;
+  height: 25px;
+}

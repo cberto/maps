@@ -1,0 +1,109 @@
+h1 {
+  font-size: 1.1em;
+  margin-top: 0;
+  span {
+    font-weight: normal;
+    vertical-align: text-top;
+  }
+}
+.ul,
+.two-column {
+  list-style-position: inside;
+  padding-left: 0;
+
+
+}
+.ul,
+.two-column2 {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.title {
+  font-size: 2em;
+  margin: 1em 0 0;
+
+}
+
+.title,
+.name,
+.seat,
+.time {
+  text-transform: uppercase;
+  font-weight: normal;
+
+
+  h2 {
+    font-size: 30px;
+    color: #071277;
+    margin: 0;
+
+
+
+
+  }
+  h3 {
+    font-size: 12px;
+    color: #a09c9c;
+    line-height: 0.5;
+  }
+  span {
+    font-size: 12px;
+    color: #071277;
+    line-height: normal;
+
+  }
+}
+
+
+.name,
+.seat {
+  margin: 0.7em 0 0;
+  position: relative;
+}
+
+.btn {
+ float: right;
+  right:0;
+  bottom:0;
+}
+
+.menu2 {
+  position: relative;
+  top: 44px;
+  margin-right: 20px;
+}
+.menu {
+  position: relative;
+  top: 22px;
+  margin-left: 20px;
+
+
+}
+
+
+.edit,
+.circle {
+  color: #999999;
+
+}
+nb-card-body {
+  top: -20px;
+  margin-left: 20px;
+}
+
+.botones {
+  position: relative;
+  left: 185px;
+  top: 65px;
+}
+
+
+
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}

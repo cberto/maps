@@ -1,0 +1,42 @@
+nb-card-header {
+  font-size: 15px;
+  color: #071274;
+  position: relative;
+  right: 15px;
+  bottom: 10px;
+}
+
+nb-card {
+  margin-bottom: 10px;
+  padding-bottom: 0;
+}
+
+h1 {
+  font-size: 18px;
+  color: #142052;
+  margin: 0;
+}
+
+.icon {
+  color: gray;
+}
+.tag {
+  position: relative;
+  left: 8%;
+  top: 1%;
+}
+.close {
+position: relative;
+left: 15px;
+top: -2px;
+
+}
+nb-card-body {
+  padding: 0;
+}
+
+
+
+.example-spacer {
+  flex: 1 1 auto;
+}
